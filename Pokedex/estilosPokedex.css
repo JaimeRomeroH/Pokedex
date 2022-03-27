@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: red;
+}
+
+input{
+    width: 300px;
+    font-weight: bold;
+}
+
+
+.colorAmarillo{
+    color: yellow
+}
+
+.fondoBlanco{
+    background-color: white;
+    width: 300px;
+    font-weight: bold;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.parrafo{
+    position: relative;
+    left: 800px;
+}
+
+button{
+    background-color: aqua;
+    height: 50px;
+    border-radius:  100%;
+    font-weight: bold;
+}
