@@ -6,7 +6,7 @@ const fetchPokemon = () => {
         if (res.status != "200"){
             console.log(res);
             pokeImagen("./imagenes/pikachuError.jpg");
-
+            limpiarDatos();
         }
         else {
             return res.json();
@@ -84,7 +84,6 @@ const pokeImagen = (url) => {
 }
 
 const pokeType = (url) => {
-  
     const pokeTp = document.getElementById("pokeTipo");
     pokeTp.value = url;
     
@@ -92,21 +91,22 @@ const pokeType = (url) => {
 
 const pokeStat = (info) => {
     const pokeEstadisticas = document.getElementById("pokeEst");
-    
-    
     pokeEstadisticas.innerText = info;  
-    
-    
 }
 
 const pokeAbilities = (datos) => {
     const pokeHabilidad = document.getElementById("pokeHab");
-    
-    
     pokeHabilidad.innerText = datos;  
 }
 
-
+const limpiarDatos = () => {
+    const pokeTp = document.getElementById("pokeTipo");
+    const pokeEstadisticas = document.getElementById("pokeEst");
+    const pokeHabilidad = document.getElementById("pokeHab");
+    pokeTp.value = ""; 
+    pokeEstadisticas.innerText = "";
+    pokeHabilidad.innerText = "";       
+}
 
 
 
