@@ -12,8 +12,13 @@ input{
 }
 
 
-.colorAmarillo{
-    color: yellow
+.titulo{
+    color: yellow;
+    text-align: center;
+}
+
+.contenido{
+    text-align: center;
 }
 
 .fondoBlanco{
@@ -22,9 +27,6 @@ input{
     font-weight: bold;
 }
 
-.centrar{
-    text-align: center;
-}
 
 .parrafo{
     position: relative;
