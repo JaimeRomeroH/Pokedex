@@ -21,16 +21,16 @@ input{
     text-align: center;
 }
 
-.fondoBlanco{
+.informacion{
     background-color: white;
     width: 300px;
     font-weight: bold;
-}
-
-
-.parrafo{
     position: relative;
     left: 800px;
+}
+
+.ocultar{
+    display: none;
 }
 
 button{

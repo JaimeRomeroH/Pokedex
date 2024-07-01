@@ -86,7 +86,6 @@ const pokeImagen = (url) => {
 const pokeType = (url) => {
     const pokeTp = document.getElementById("pokeTipo");
     pokeTp.value = url;
-    
 }
 
 const pokeStat = (info) => {
